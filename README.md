@@ -1,6 +1,14 @@
 # Saransh Goswami — AI + Backend Engineering Portfolio
 
-Premium responsive portfolio built with Next.js 14, React, and TypeScript.
+A responsive Next.js portfolio focused on AI platform engineering, backend systems, distributed fintech, and automation.
+
+## Highlights
+- Light, editorial visual system with responsive layouts
+- Animated hero illustration and scroll-reveal sections
+- Project architecture mockups for AI-SEOS, Enterprise LLM Gateway, and Speech & Video RAG
+- Interactive, clearly-labelled illustrative automation demos
+- Experience, measurable outcomes, skills, education, and résumé links
+- Reduced-motion accessibility support
 
 ## Run locally
 
@@ -11,12 +19,9 @@ npm run dev
 
 Open http://localhost:3000.
 
-## Deploy to Vercel
+## Deploy
 
-1. Create a GitHub repository named `saransh-portfolio`.
-2. Upload the **contents** of this folder so `app/`, `public/`, and `package.json` are at the repository root.
-3. In Vercel choose **Add New → Project**, import the repository, keep the detected Next.js settings, and click **Deploy**.
+Push the repository to GitHub and import it into Vercel. Framework preset: Next.js. Use the repository root as the root directory. No environment variables are required for the portfolio demos.
 
-No environment variables are required. The supplied resume PDF is included in `public/` and linked from the site.
-
-Before publishing, verify the metrics, project descriptions, and resume version. Add a GitHub profile link once the exact URL is confirmed.
+## Demo disclaimer
+The Automation Studio is a front-end simulation for portfolio presentation. It does not connect to production APIs, internal systems, or customer data.
